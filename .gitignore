@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+frontend/dist/
+
+# Bun
+bun.lockb
+
+# Generated at build time
+src/embedded-assets.js
+
+# Claude Code / Agents
+.claude/
+.agents/
+.superpowers/
+docs/
+skills-lock.json
+
+# Local data
+.sqlview/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+{
+  "name": "sqlview",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Read-only local SQLite browser with a web UI",
+  "type": "module",
+  "bin": {
+    "sqlview": "./src/server.js"
+  },
+  "scripts": {
+    "start": "bun src/server.js",
+    "start:port": "bun src/server.js --port 18095",
+    "dev": "cd frontend && bun run dev",
+    "build:frontend": "cd frontend && bun run build",
+    "build": "bun scripts/build.ts"
+  }
+}
